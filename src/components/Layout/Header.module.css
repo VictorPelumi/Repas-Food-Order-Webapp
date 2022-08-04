@@ -26,6 +26,6 @@
   width: 110%;
   height: 100%;
   object-fit: cover;
-  filter: blur(0.8px);
+  filter: blur(0.9px);
   /* transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem); */
 }
