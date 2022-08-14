@@ -1,0 +1,5 @@
+.DS_Store
+.idea
+.netlify
+build
+node_modules
