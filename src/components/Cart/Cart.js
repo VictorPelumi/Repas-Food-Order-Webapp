@@ -78,7 +78,7 @@ const Cart = (props) => {
       {isCheckout && (
         <Checkout onConfirm={submitOrderHandler} onCancel={props.onClose} />
       )}
-      {!isCheckout && modalActions};
+      {!isCheckout && modalActions}
     </>
   );
   const isSubmittingOrderData = <p>Sending Order details...</p>;
