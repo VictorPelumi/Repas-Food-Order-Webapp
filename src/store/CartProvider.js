@@ -74,6 +74,7 @@ const CartProvider = (props) => {
   const clearItemFromCartHandler = () => {
     dispatchCartAction({ type: "CLEAR" });
   };
+
   const cartContext = {
     items: cartState.items,
     totalAmount: cartState.totalAmount,
